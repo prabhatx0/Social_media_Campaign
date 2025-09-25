@@ -1,0 +1,11 @@
+# Core application
+streamlit
+python-dotenv
+langchain
+langchain-openai
+requests
+beautifulsoup4
+pandas
+# For testing
+pytest
+pytest-mock
