@@ -1,31 +1,6 @@
 Autonomous Social Media Campaign Agent
 This project is a complete end-to-end system that takes a URL to a product announcement or blog post and generates a scheduled 7-day social media campaign for Twitter (X) and LinkedIn. It uses an AI agent to plan and execute the campaign, with a human-in-the-loop UI for approval.
 
-Project Tree
-/autonomous_campaign_agent
-├── /agents
-│   ├── __init__.py
-│   └── content_generator.py
-├── /nlp
-│   ├── __init__.py
-│   └── analysis.py
-├── /scraper
-│   ├── __init__.py
-│   └── scraper.py
-├── /scheduler
-│   ├── __init__.py
-│   └── scheduler.py
-├── /ui
-│   ├── __init__.py
-│   └── app_ui.py
-├── /tests
-│   ├── __init__.py
-│   ├── test_scraper.py
-│   └── test_scheduler.py
-├── app.py
-├── requirements.txt
-└── README.md
-
 Features
 Web Scraping: Scrapes the full text content from a given URL.
 NLP Analysis: Uses an LLM (via LangChain and OpenAI) to extract key themes, statistics, and value propositions.
