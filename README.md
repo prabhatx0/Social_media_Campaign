@@ -19,13 +19,9 @@ Setup and Installation
 
 1. Clone the Repository
 git clone <your-repo-url>
-cd autonomous_campaign_agent
 
 
 2. Create a Virtual Environment
-It's highly recommended to use a virtual environment.
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 
 3. Install Dependencies
